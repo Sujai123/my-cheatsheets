@@ -1,11 +1,300 @@
-# HTML Cheatsheets
-## Table of contents
-## Head
-## Headings
-## Typography
-## Images
-## Inputs
-## Scripts
+<h1>HTML Cheatsheets</h1>
+<h2>Table of contents</h2>
+<ol>
+  <li><a href="#head">Head</a></li>
+  <li><a href="#headings">Headings</a></li>
+</ol>
+<h2>Head</h2>
+<table>
+  <thead>
+    <tr>
+    <th>Tag Name</th>
+    <th>Available Attributes</th>
+    <th>UseCase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>title</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>link</td>
+      <td>
+        <ul>
+          <li>rel</li>
+          <li>href</li>
+        </ul>
+      </td>
+      <td>
+        <p>link rel="stylesheet" href="style.css"</p>
+        <p>link rel="icon" type="image/svg+xml" href="/logo.svg"</p>
+      </td>
+    </tr>
+    <tr>
+      <td>script</td>
+      <td>
+        <ul>
+          <li>type</li>
+          <li>src</li>
+          <li>defer</li>
+          <li>async</li>
+        </ul>
+      </td>
+      <td>
+        NA
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>Headings</h2>
+<table>
+  <thead>
+    <tr>
+    <th>Tag Name</th>
+    <th>Available Attributes</th>
+    <th>UseCase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>h1</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>h2</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>h3</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>h4</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>h5</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>h6</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Typography</h2>
+<table>
+  <thead>
+    <tr>
+    <th>Tag Name</th>
+    <th>Available Attributes</th>
+    <th>UseCase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>p</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>i</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>em</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>ul</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>superscript</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>subscript</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Images</h2>
+<table>
+  <thead>
+    <tr>
+    <th>Tag Name</th>
+    <th>Available Attributes</th>
+    <th>UseCase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>img</td>
+      <td>
+        <ul>
+          <li>src</li>
+          <li>srcset</li>
+        </ul>
+      </td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Inputs</h2>
+<h4>Types</h4>
+<table>
+  <thead>
+    <tr>
+    <th>Name</th>
+    <th>Available Attributes</th>
+    <th>UseCase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>text</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>password</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>search</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>tel</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>number</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>hidden</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>email</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>time</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>file</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>radio</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>checkbox</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>range</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
 
+<table>
+  <thead>
+    <tr>
+    <th>Attributes</th>
+    <th>Available Attributes</th>
+    <th>UseCase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>disabled</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>required</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>checked</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>autofocus</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>autocomplete</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>autocompletetype</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>autocapitalize</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>pattern</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
 
-## Basic Layout
+<h2>Audio&Video</h2>
+<h2>Basic Layout</h2>
+
