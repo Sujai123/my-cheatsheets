@@ -1,85 +1,102 @@
-HTML Cheatsheets
-================
+# HTML Cheatsheets
 
-Table of contents
+## Table of contents
 -----------------
 
 1.  [Head](#head)
+   - [Common Tags](#commontags)
 2.  [Headings](#headings)
 
-Head
-----
+- [ ] Add Global Attributes and Event Attributes
+- [ ] Accessibility
+- [ ] Update Description
+
+### Head
+#### Common Tags
 | Tag Name  | Available Attribute | UseCase |
 | ------------- | ------------- | --- |
 | title  | NA  | NA  |
-| link  | 1. rel | `<link rel="stylesheet" href="style.css" />` <br> `<link rel="icon" type="image/svg+xml" href="/logo.svg" />` |
+| link  | rel | `<link rel="stylesheet" href="style.css" />` <br> `<link rel="icon" type="image/svg+xml" href="/logo.svg" />` |
 | script | type, src, defer, async | NA |
 
-Headings
---------
-| Tag Name  | Available Attribute | UseCase |
-| ------------- | ------------- | --- |
-| h1  | NA  | NA  |
-| h2  | NA  | NA  |
-| h3  | NA  | NA  |
-| h4  | NA  | NA  |
-| h5  | NA  | NA  |
-| h6  | NA  | NA  |
+#### Meta Tag
+| Attribute | Possible Values |
+|-----------|-----------------|
+|charset 	  | character_set(utf-8) |
+|content 	  | text |
+|http-equiv |	content-security-policy, content-type, default-style, refresh |
+|name       | 	application-name, author, description, generator, keywords, viewport |
 
-Typography
-----------
-| Tag Name  | Available Attribute | UseCase |
-| ------------- | ------------- | --- |
-| p  | NA  | NA  |
-| b  | NA  | NA  |
-| i  | NA  | NA  |
-| em  | NA  | NA  |
-| u  | NA  | NA  |
-| superscript  | NA  | NA  |
-| subscript  | NA  | NA  |
+### Headings
+| Available Tag  | Fontsize | Weight | pixel height |
+| -------------- | -------- | ------ | ------------ |
+| h1             | 2em      | bolder | 32px         |
+| h2             | 1.5em    | bolder | 24px         |
+| h3             | 1.17em   | bolder | 18.72px      |
+| h4             | 1em      | bolder | 16px         |
+| h5             | .83em    | bolder | 13.28px      |
+| h6             | .67em    | bolder | 10.72px      |
 
-Images
-------
+### Typography
+| Available Tag  |
+| -------------  |
+| p              |
+| b              |
+| i              |
+| em             |
+| u              |
+| a              |
+| superscript    |
+| subscript      |
 
-| Tag Name  | Available Attribute | UseCase |
-| ------------- | ------------- | --- |
-| img  | src, srcset  | NA  |
+### Images
 
-Inputs
-------
+#### Responsive Images
+
+```html
+ <img
+  srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
+  sizes="(max-width: 600px) 480px,
+         800px"
+  src="elva-fairy-800w.jpg"
+  alt="Elva dressed as a fairy" />
+```
+
+### Inputs
 
 #### Types
-| Name  | Available Attribute | UseCase |
-| ------------- | ------------- | --- |
-| text  | NA  | NA  |
-| password  | NA  | NA  |
-| search  | NA  | NA  |
-| tel  | NA  | NA  |
-| number  | NA  | NA  |
-| hidden  | NA  | NA  |
-| email  | NA  | NA  |
-| date  | NA  | NA  |
-| time  | NA  | NA  |
-| file  | NA  | NA  |
-| radio  | NA  | NA  |
-| checkbox  | NA  | NA  |
-| range  | NA  | NA  |
+| Name      |
+| --------  |
+| text      |
+| password  |
+| search    |
+| tel       |
+| number    |
+| hidden    |
+| email     |
+| date      |
+| time      |
+| file      |
+| radio     |
+| checkbox  |
+| range     |
 
-| Name  | Available Attribute | UseCase |
-| ------------- | ------------- | --- |
-| disabled  | NA  | NA  |
-| required  | NA  | NA  |
-| checked  | NA  | NA  |
-| autofocus  | NA  | NA  |
-| disabled  | NA  | NA  |
-| autocomplete  | NA  | NA  |
-| autocompletetype  | NA  | NA  |
-| autocapitalize  | NA  | NA  |
-| pattern  | NA  | NA  |
+#### Attributes
+
+| Name              | Description   |
+| -------------     | ------------- |
+| disabled          | NA            |
+| required          | NA            |
+| checked           | NA            |
+| autofocus         | NA            |
+| disabled          | NA            |
+| autocomplete      | NA            |
+| autocompletetype  | NA            |
+| autocapitalize    | NA            |
+| pattern           | NA            |
 
 
-Audio & Video
------------
+### Audio & Video
 audio and video is used to render audio and video in website respectively. It is used along with the source tag
 
 UseCase
@@ -95,22 +112,22 @@ UseCase
   Your browser does not support the video tag.
 </video>
 ```
-Attributes
-| Name  | Available Attribute | UseCase |
-| ------------- | ------------- | --- |
-| autoplay  | NA  | NA  |
-| controls  | NA  | NA  |
-| width | NA  | NA  |
-| height  | NA  | NA  |
-| loop  | NA  | NA  |
-| muted  | NA  | NA  |
-| poster  | NA  | NA  |
-| preload  | NA  | NA  |
-| src  | NA  | NA  |
-| width  | NA  | NA  |
+#### Attributes
 
-Basic Layout
-------------
+| Name      | Description |
+| --------- | ----------- |
+| autoplay  | NA          |
+| controls  | NA          |
+| width     | NA          |
+| height    | NA          |
+| loop      | NA          |
+| muted     | NA          |
+| poster    | NA          |
+| preload   | NA          |
+| src       | NA          |
+| width     | NA          |
+
+### Basic Layout
 ```html
 <html lang="en">
 <head>
