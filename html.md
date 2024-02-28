@@ -4,8 +4,17 @@
 -----------------
 
 1.  [Head](#head)
-   - [Common Tags](#common-tags)
+    - [Common Tags](#common-tags)
+    - [Meta Tag](#meta-tag)
 2.  [Headings](#headings)
+3.  [Typography](#typography)
+4.  [Images](#images)
+    - [Responsive images](#responsive-images)
+5.  [Inputs](#inputs)
+    - [Types](#types)
+    - [Attributes](#attributes)
+6.  [Audio & Video](#audio-video)
+7.  [Basic Layout](#basic-layout)
 
 - [ ] Add Global Attributes and Event Attributes
 - [ ] Accessibility
@@ -96,7 +105,7 @@
 | pattern           | NA            |
 
 
-### Audio & Video
+### Audio Video
 audio and video is used to render audio and video in website respectively. It is used along with the source tag
 
 UseCase
