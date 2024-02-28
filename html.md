@@ -4,7 +4,7 @@
 -----------------
 
 1.  [Head](#head)
-   - [Common Tags](#CommonTags)
+   - [Common Tags](#Common%20Tags)
 2.  [Headings](#headings)
 
 - [ ] Add Global Attributes and Event Attributes
